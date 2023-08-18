@@ -1,0 +1,92 @@
+
+html {
+    /* font-family: 'Homemade Apple', cursive; */
+    scroll-behavior: smooth;
+}
+header {
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(117, 19, 93, 0.73)), url(../Images/mainbg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.nav {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+.nav a:hover {
+    color: red;
+}
+
+#openIcon {
+    left: 20px;
+    position: absolute;
+    top: 65%;
+    /* transform: translate(-50% ); */
+}
+
+.closeLayer {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.bodySinger {
+    display: none;
+}
+
+.hSinger {
+    cursor: pointer;
+}
+
+/*  */
+
+
+.timeSection {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(117, 19, 93, 0.73)), url(../Images/secondbg.jpg);
+
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.timeSection h4 {
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 50px;
+    color: white;
+}
+
+.mediaDiv i {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 2s , border 2s;
+}
+
+.mediaDiv i:hover {
+    color: red;
+    border: 1px solid red;
+
+}
